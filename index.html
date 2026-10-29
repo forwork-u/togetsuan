@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>山あいの湯宿 灯月庵</title>
+<meta name="description" content="日常から離れ、普段は味わえない特別な贅沢時間を。全七室の山あいの湯宿、灯月庵。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <a href="#top" class="logo js-scroll" aria-label="灯月庵 トップへ">
+    <span class="logo__ja">灯月庵</span>
+    <span class="logo__en">tōgetsu-an</span>
+  </a>
+  <div class="header__right">
+    <a href="#reserve" class="btn-reserve js-scroll">ご予約</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="gnav" aria-label="メニューを開閉">
+      <span class="menu-btn__label">MENU</span>
+      <span class="menu-btn__bars"><span></span><span></span></span>
+    </button>
+  </div>
+</header>
+
+<nav class="gnav" id="gnav" aria-label="サイトメニュー">
+  <div class="gnav__visual">
+    <img src="images/hero-1.jpg" alt="" class="is-active">
+    <img src="images/concept.jpg" alt="">
+    <img src="images/room-1.jpg" alt="">
+    <img src="images/cuisine-1.jpg" alt="">
+    <img src="images/onsen.jpg" alt="">
+    <img src="images/access.jpg" alt="">
+    <img src="images/reserve.jpg" alt="">
+    <p class="gnav__address">山あいの湯宿　灯月庵<br>〒000-0000　○○県○○郡○○町 1-2-3<br>TEL 0000-00-0000</p>
+  </div>
+  <div class="gnav__body">
+    <ul class="gnav__list">
+      <li><a href="#top" class="js-scroll"><span class="ja">トップ</span><span class="en">Top</span></a></li>
+      <li><a href="#concept" class="js-scroll"><span class="ja">はじめに</span><span class="en">Concept</span></a></li>
+      <li><a href="#rooms" class="js-scroll"><span class="ja">客室</span><span class="en">Rooms</span></a></li>
+      <li><a href="#cuisine" class="js-scroll"><span class="ja">お料理</span><span class="en">Cuisine</span></a></li>
+      <li><a href="#onsen" class="js-scroll"><span class="ja">温泉</span><span class="en">Hot spring</span></a></li>
+      <li><a href="#access" class="js-scroll"><span class="ja">ご案内</span><span class="en">Access</span></a></li>
+      <li><a href="#reserve" class="js-scroll"><span class="ja">ご予約</span><span class="en">Reserve</span></a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+  <section class="hero" id="top" aria-label="灯月庵">
+    <div class="hero__slides">
+      <img src="images/hero-1.jpg" alt="夜の温泉宿の佇まい" class="is-active">
+      <img src="images/hero-2.jpg" alt="露天風呂">
+      <img src="images/room-1.jpg" alt="畳の客室">
+    </div>
+    <div class="hero__scrim"></div>
+    <h1 class="hero__title">
+      <span class="js-hero" data-i="1">非日常体験、</span>
+      <span class="js-hero" data-i="2">思う存分。</span>
+    </h1>
+    <div class="hero__lines">
+      <p class="hero__line hero__line--1 js-hero" data-i="3">日常から離れ、</p>
+      <p class="hero__line hero__line--2 js-hero" data-i="4">普段は味わえない</p>
+      <p class="hero__line hero__line--3 js-hero" data-i="5">特別な贅沢時間を</p>
+      <p class="hero__line hero__line--4 js-hero" data-i="6">灯月庵で。</p>
+    </div>
+    <div class="hero__bottom">
+      <div class="hero__dots" id="heroDots" aria-label="スライド">
+        <button class="is-active" aria-label="スライド 1"></button>
+        <button aria-label="スライド 2"></button>
+        <button aria-label="スライド 3"></button>
+      </div>
+      <p class="hero__moon">今宵の月　<span id="moonName">—</span><br><small>月齢 <span id="moonAge">—</span>　·　露天より見上げる夜</small></p>
+    </div>
+  </section>
+
+  <section class="concept" id="concept">
+    <div class="pic pic--4x5 js-reveal" data-d="0">
+      <img src="images/concept.jpg" alt="床の間に掛けられた軸と生け花" class="js-parallax" data-speed="0.12">
+    </div>
+    <div class="concept__text">
+      <h2 class="concept__title js-reveal" data-d="1">灯りの下で、<br class="pc-only">ほどける</h2>
+      <p class="concept__body js-reveal" data-d="2">山の端に月がのぼる頃、中庭の竹灯籠にひとつずつ火が入ります。<br>客室はわずか七室。廊下ですれ違う人も少なく、聞こえるのは湯の音と虫の声だけ。<br>時計を外して、湯に浸かり、季節の膳をいただく。<br>それだけの一日を、丁寧にご用意しています。</p>
+    </div>
+  </section>
+
+  <section class="rooms" id="rooms">
+    <div class="rooms__head js-reveal" data-d="0">
+      <h2 class="h2">客室</h2>
+      <p class="body">全七室。すべての部屋から、中庭か山の稜線が見えます。</p>
+    </div>
+    <div class="rooms__list">
+      <article class="room">
+        <div class="pic pic--3x2 room__pic js-reveal" data-d="0"><img src="images/room-1.jpg" alt="床の間のある広い和室" class="js-parallax" data-speed="0.08"></div>
+        <div class="room__text">
+          <h3 class="h3 js-reveal" data-d="1">月見　露天風呂付き特別室</h3>
+          <p class="body js-reveal" data-d="2">本間十二畳半に次の間と広縁。檜の半露天風呂からは、東の稜線にのぼる月が正面に見えます。一室のみの特別室です。</p>
+          <dl class="spec js-reveal" data-d="3">
+            <dt>広さ</dt><dd>本間12.5畳＋次の間6畳・半露天風呂</dd>
+            <dt>定員</dt><dd>2 – 4名</dd>
+            <dt>料金</dt><dd>一泊二食 お一人様 48,000円〜</dd>
+          </dl>
+        </div>
+      </article>
+      <article class="room room--reverse">
+        <div class="pic pic--3x2 room__pic js-reveal" data-d="0"><img src="images/room-2.jpg" alt="障子越しの光が入る和室" class="js-parallax" data-speed="0.08"></div>
+        <div class="room__text">
+          <h3 class="h3 js-reveal" data-d="1">竹灯　中庭に面した和室</h3>
+          <p class="body js-reveal" data-d="2">障子を開けると、竹灯籠の並ぶ中庭が目の前に。夜は灯籠の明かりだけで過ごしていただけるよう、照明を抑えています。</p>
+          <dl class="spec js-reveal" data-d="3">
+            <dt>広さ</dt><dd>和室10畳・広縁</dd>
+            <dt>定員</dt><dd>2 – 3名</dd>
+            <dt>料金</dt><dd>一泊二食 お一人様 32,000円〜</dd>
+          </dl>
+        </div>
+      </article>
+      <article class="room">
+        <div class="pic pic--3x2 room__pic js-reveal" data-d="0"><img src="images/room-3.jpg" alt="落ち着いた和室の一角" class="js-parallax" data-speed="0.08"></div>
+        <div class="room__text">
+          <h3 class="h3 js-reveal" data-d="1">宵　ベッドのある和洋室</h3>
+          <p class="body js-reveal" data-d="2">畳の居間に、低めのツインベッドを置いた和洋室。足腰に不安のある方や、布団に慣れない方にもくつろいでいただけます。</p>
+          <dl class="spec js-reveal" data-d="3">
+            <dt>広さ</dt><dd>和室8畳＋寝室</dd>
+            <dt>定員</dt><dd>2名</dd>
+            <dt>料金</dt><dd>一泊二食 お一人様 38,000円〜</dd>
+          </dl>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="cuisine" id="cuisine">
+    <div class="cuisine__inner">
+      <div class="cuisine__pics">
+        <div class="pic pic--4x5 js-reveal" data-d="0"><img src="images/cuisine-1.jpg" alt="季節の懐石料理" class="js-parallax" data-speed="0.1"></div>
+        <div class="pic pic--3x4 cuisine__sub js-reveal" data-d="1"><img src="images/cuisine-2.jpg" alt="器に盛られた八寸" class="js-parallax" data-speed="0.16"></div>
+      </div>
+      <div class="cuisine__text">
+        <h2 class="h2 js-reveal" data-d="0">お料理</h2>
+        <p class="body js-reveal" data-d="1">山のもの、川のもの。<br>その朝に届いたもので献立を決めます。</p>
+        <p class="body js-reveal" data-d="2">夕食は個室の食事処で、一品ずつお出しする会席です。器は地元の窯元のもの。苦手な食材やアレルギーは、ご予約の際にお知らせください。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="onsen" id="onsen">
+    <img src="images/onsen.jpg" alt="木々に囲まれた露天風呂" class="onsen__bg js-parallax" data-speed="0.18">
+    <div class="onsen__scrim"></div>
+    <div class="onsen__inner">
+      <div class="onsen__text">
+        <h2 class="h2 js-reveal" data-d="0">温泉</h2>
+        <p class="lead js-reveal" data-d="1">源泉かけ流しの湯に、<br>夜は月が映ります。</p>
+        <p class="body js-reveal" data-d="2">敷地内から湧く単純温泉を、加水・加温せずにお使いいただいています。肌あたりがやわらかく、長く浸かっても疲れにくい湯です。</p>
+      </div>
+      <dl class="spec spec--panel js-reveal" data-d="3">
+        <dt>泉質</dt><dd>単純温泉（低張性弱アルカリ性高温泉）</dd>
+        <dt>大浴場</dt><dd>15:00 – 翌10:00（深夜1:00 – 5:00 清掃）</dd>
+        <dt>貸切露天</dt><dd>二箇所・50分・ご宿泊の方は無料（フロントにて予約）</dd>
+        <dt>効能</dt><dd>神経痛、筋肉痛、冷え性、疲労回復</dd>
+      </dl>
+    </div>
+  </section>
+
+  <section class="access" id="access">
+    <div class="access__text">
+      <h2 class="h2 js-reveal" data-d="0">ご案内</h2>
+      <dl class="spec spec--large js-reveal" data-d="1">
+        <dt>チェックイン</dt><dd>15:00 – 19:00</dd>
+        <dt>チェックアウト</dt><dd>10:00</dd>
+        <dt>所在地</dt><dd>〒000-0000　○○県○○郡○○町 1-2-3</dd>
+        <dt>お車</dt><dd>○○ICより約25分・駐車場10台（無料）</dd>
+        <dt>電車</dt><dd>JR○○駅より送迎あり（14:30 / 16:00 発・要予約）</dd>
+        <dt>お電話</dt><dd><a href="tel:0000000000">0000-00-0000</a>（9:00 – 20:00）</dd>
+      </dl>
+    </div>
+    <div class="pic pic--4x3 access__pic js-reveal" data-d="2"><img src="images/access.jpg" alt="温泉街の宿の外観" class="js-parallax" data-speed="0.1"></div>
+  </section>
+
+  <section class="reserve" id="reserve">
+    <div class="reserve__inner">
+      <h2 class="h2 js-reveal" data-d="0">ご予約</h2>
+      <p class="body js-reveal" data-d="1">一泊二食付き、お一人様 32,000円〜。<br>ご希望の日付をお選びください。</p>
+      <form class="reserve__form js-reveal" data-d="2" id="reserveForm">
+        <label>ご到着日<input type="date" name="date" id="resDate" required></label>
+        <label>泊数
+          <select name="nights"><option value="1">1泊</option><option value="2">2泊</option><option value="3">3泊</option></select>
+        </label>
+        <label>人数
+          <select name="guests"><option value="1">1名</option><option value="2" selected>2名</option><option value="3">3名</option><option value="4">4名</option></select>
+        </label>
+        <button type="submit">空室を問い合わせる</button>
+      </form>
+      <p class="reserve__moon js-reveal" data-d="3" id="moonOnDate" aria-live="polite">日付を選ぶと、その夜の月をお知らせします。</p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <a href="#top" class="logo logo--footer js-scroll" aria-label="灯月庵 トップへ">
+    <span class="logo__ja">灯月庵</span>
+    <span class="logo__en">tōgetsu-an</span>
+  </a>
+  <div class="footer__meta">
+    <p>© 山あいの湯宿 灯月庵</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
